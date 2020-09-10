@@ -1,9 +1,9 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-  reversal = ""
-  sentence.split("").each do |element|
-    reversal = reversal + element.reverse
+  reversal = sentence.split(" ")
+  reversal.each do |element|
+    reversal << sentence.reverse
   end
-  return reversal
+  reversal.join " "
 end
