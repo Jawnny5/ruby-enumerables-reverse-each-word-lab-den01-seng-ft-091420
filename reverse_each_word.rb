@@ -1,6 +1,6 @@
 require 'pry'
 
-def reverse_each_word_with_each(sentence)
+def reverse_each_word(sentence)
   reversal = sentence.split(" ")
   reversed_array = []
   reversal.each do |element|
