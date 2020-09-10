@@ -8,3 +8,12 @@ def reverse_each_word(sentence)
   end
   reversed_array.join(" ")
 end
+
+def reverse_each_word(sentence)
+  reversal = string.split(" ")
+  reversed_array = []
+  reversal.each do |element|
+    reversed_array << element.reverse
+  end
+  reversed_array.join(" ")
+end
