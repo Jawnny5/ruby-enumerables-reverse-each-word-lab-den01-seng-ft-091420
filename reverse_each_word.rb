@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
   sentence.split("").each do |element|
     reversal = reversal + element
   end
-  return result
+  return reversal
 end
 
 binding.pry
