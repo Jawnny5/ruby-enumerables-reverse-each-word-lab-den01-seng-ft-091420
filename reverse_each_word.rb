@@ -7,5 +7,3 @@ def reverse_each_word(sentence)
   end
   return reversal.reverse
 end
-
-binding.pry
